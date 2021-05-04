@@ -1,0 +1,162 @@
+
+body{
+    font-family:'Crimson Text' , Serif;
+    margin:0px;
+}
+h1,h2,h3,ul,li{
+    font-family:'Dancing Script' , Cursive;
+    margin:0;
+    padding:0px;
+}
+p{
+    margin: 0;
+    font-size: 24px;
+    padding:10pz 0px 30px;
+}
+.header{
+    margin: 0;
+    padding: 20px 50px;
+    padding-bottom: 18px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main{
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 10%
+}
+.nav{
+    float: left;
+    width: 70%;
+}
+.social{
+    float: left;
+    width: 20%
+}
+.nav ul li, .social ul li{
+    display: inline-block;
+}
+.social ul{
+    float: right;
+}
+.nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 24px;
+    display: block;
+    transition: all 0.5s ease;
+}
+.nav ul li a:hover{
+    color: #ec6538;
+}
+.social ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    background:#e6ebec;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 45px;
+    transition: all 0.5s ease;
+}
+.social ul li a:hover{
+    background: #ec6538;
+    color:#fff;
+}
+.logo img{
+    height: 60px;
+}
+.main{
+    background: #e6ebec;
+    margin: 0px 50px;
+    padding: 50px;
+}
+.banner-text{
+    float: left;
+    width: 30%;
+    padding: 210px 0px;
+    box-sizing: border-box;
+}
+.banner-text h1{
+    font-size: 70px;
+}
+.banner-text p{
+    font-size: 20px;
+    padding: 5px 0 15px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow:5px 5px 10px -5px black;
+    transition: all 0.5s ease;
+}
+.banner-image{
+    width: 70%;
+    float: right;
+}
+.banner-image img {
+    padding: 90px 0px 0px 119px;
+    height: 500px;
+    width: auto;
+}
+.footer-area{
+    margin:0px 50px;
+}
+.left-section, .right-section{
+    float: left;
+    width: 49.4%;
+    padding: 50px 50px;
+    background: #e6ebec;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+.left-section{
+    margin-right: 0.6%;
+}
+.left-section h2{
+    font-size: 30px;
+}
+.left-section p{
+    font-size: 20px;
+}
+.right-section{
+    margin-left: 0.6%;
+}
+.right-section h3{
+    font-size: 30px;
+}
+.right-section p{
+    font-size: 20px;
+}
+.footer-area img{
+    height: 100px;
+}
+
+.footer{
+    background: #dddddd;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid black;
+}
+.number {
+    font-size: 23px;
+}
+.footer p{
+    font-size: 15px;
+}
